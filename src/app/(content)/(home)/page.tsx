@@ -18,10 +18,10 @@ const Home = async() => {
     const profileData = await getProfileData();
     return (
         <div>
-            <div className="h-screen flex flex-col items-center justify-center">
+            <div className="min-h-screen flex flex-col items-center justify-center">
                 <HomeHeader />
             </div>
-            <div className="h-screen flex flex-col items-center justify-center">
+            <div className="min-h-screen flex flex-col items-center justify-center">
                 {profileData && <Person person={
                     {
                         name: profileData.name,

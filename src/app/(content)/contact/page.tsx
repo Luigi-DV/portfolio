@@ -7,7 +7,7 @@ import {getProfileData} from "@/services/profileService";
 const ContactPage = async() => {
     const profileData = await getProfileData();
     return (
-        <div className="h-screen lg:flex lg:flex-col lg:justify-center">
+        <div className="min-h-screen lg:flex lg:flex-col lg:justify-center">
             <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:py-32 lg:px-8">
                 <div className="divide-y-2 divide-gray-200">
                     <div className="lg:grid lg:grid-cols-3 lg:gap-8">
