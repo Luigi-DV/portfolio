@@ -7,21 +7,29 @@ import { Experience } from "@/components/Experience";
 // Services
 import {getExperienceData} from "@/services/experienceService";
 
+// Fancy Text
+import FancyText from "@carefully-coded/react-text-gradient";
+import {HomeHeader} from "@/components/HomeHeader";
+import {Person} from "@/components/Person";
+import {getProfileData} from "@/services/profileService";
+
 const Home = async() => {
     const experienceData = await getExperienceData();
+    const profileData = await getProfileData();
     return (
         <div>
-            <header className="h-screen flex flex-col items-center justify-center">
-                <h1 className="text-center text-6xl lg:text-8xl font-bold mb-4">
-                    Hello.
-                    <br/>
-                    I am Luigelo
-                </h1>
-                <p className="text-xl mt-4">
-                Full Stack Developer
-                </p>
-                <ArrowDownIcon className="text-4xl animate-bounce mx-auto mt-32" />
-            </header>
+            <div className="h-screen flex flex-col items-center justify-center">
+                <HomeHeader />
+            </div>
+            <div className="h-screen flex flex-col items-center justify-center">
+                {profileData && <Person person={
+                    {
+                        name: profileData.name,
+                        bio: profileData.bio,
+                        imageUrl: profileData.image
+                    }
+                }/>}
+            </div>
             {
                 experienceData && experienceData.map(
                     e => (
