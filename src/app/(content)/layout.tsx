@@ -1,30 +1,33 @@
 import React from "react";
 
-// Next Modules
-import Link from "next/link";
-
 // Components
-import {ThemeToggle} from "@/components/ThemeToggle";
-import {Navigation} from "@/components/Navigation";
-import {Footer} from "@/components/Footer";
+import {NavigationBar} from "@/components/NavigationBar";
+// Services
+import {getNavigationData} from "@/services/navigationService";
+import {getContactData} from "@/services/contactService";
+
 
 /**
  * Home Layout
  * @param children
  * @constructor
  */
-export default function HomeLayout({
+export default async function HomeLayout({
    children,
 }: {
     children: React.ReactNode
 }) {
+
+    const navigationData = await getNavigationData();
+    const contactData = await getContactData();
+
     return(
-        <div>
-            <Navigation />
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <>
                 {children}
-            </div>
-            <Footer />
-        </div>
-    )
+            {
+                navigationData && contactData &&
+                <NavigationBar navigation={navigationData.navbar} contact={contactData.contact}/>
+            }
+        </>
+)
 }

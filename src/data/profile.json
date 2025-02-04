@@ -1,11 +1,14 @@
 {
     "name": "Luigelo Davila",
+    "initials": "LDV",
+    "description":  "Software Engineer with a strong development background and growing expertise in information security.",
+    "summary": "As a Full Stack Developer. I've experience with microservices projects using FastAPI and .NET. I'm also a Computer Science student at Maastricht University and pursuing a Master's at Lomonosov Moscow State University. I hold CIW Web Developer and Agile with Atlassian Jira certifications, and founded Ldvloper, a software solutions team.",
     "email": "luigelo@ldvloper.com",
     "url": "https://ldvloper.com",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/53850824?v=4",
     "linkedinUrl": "https://www.linkedin.com/in/luigelo-davila/",
     "githubUsername": "@luigi-dv",
     "githubUrl": "https://github.com/Luigi-DV",
-    "bio": "As a Full Stack Developer. I've experience with microservices projects using FastAPI and .NET. I'm also a Computer Science student at Maastricht University and pursuing a Master's at Lomonosov Moscow State University. I hold CIW Web Developer and Agile with Atlassian Jira certifications, and founded Ldvloper, a software solutions team.",
     "location": "Heerlen, Netherlands",
     "skills": [
       "Python",

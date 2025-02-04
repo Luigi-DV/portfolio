@@ -1,0 +1,75 @@
+{
+  "work": [
+    {
+      "company": "Boloo",
+      "href": "https://www.boloo.co",
+      "badges": [],
+      "location": "Remote (Netherlands)",
+      "title": "Software Engineer",
+      "logoUrl": "/images/work/boloo.avif",
+      "start": "July 2024",
+      "end": "Present",
+      "description":
+      "Specializing in TypeScript, Python, FastAPI, and MongoDB to develop robust, scalable solutions. Spearhead the modernization of legacy JavaScript codebases with React, improving performance, maintainability, and user experience. Architect and optimize backend services, designing efficient API structures and database solutions to enhance application scalability and reliability. Collaborate cross-functionally to align technical implementations with business objectives, driving innovation and efficiency in software development."
+    },
+    {
+      "company": "Cash App",
+      "badges": [],
+      "href": "https://cash.app",
+      "location": "Remote",
+      "title": "Frontend Engineer (Freelance)",
+      "logoUrl": "/images/work/cash_app.png",
+      "start": "May 2024",
+      "end": "June 2024",
+      "description":
+      "Developed and implemented a Cashflow Module enabling real-time transaction processing and dynamic updates to user insights, improving financial decision-making capabilities on bank transactions. Focused on optimizing data flow visualization efficiency and ensuring seamless user interaction for up-to-date cash flow management."
+    },
+    {
+      "company": "Applus Laboratories (IT Infrastructure)",
+      "href": "https://appluslaboratories.com",
+      "badges": [],
+      "location": "Barcelona, Spain",
+      "title": "Full Stack Developer",
+      "logoUrl": "/images/work/applus_laboratories.png",
+      "start": "July 2022",
+      "end": "January 2024",
+      "description":
+      "Conducted research for seamless integration of information systems in laboratory environments. Provided IT support, resolving technical issues and optimizing technology tools. Led development of a Microservices Architecture Project using FastAPI, .NET, NextJS, ReactJS, and TypeScript. Built scalable React components with unit tests and factories. Utilized Azure for deployment, monitoring, and CI/CD automation with Azure DevOps. Managed Agile teams, ensuring efficient project execution with Scrum methodologies."
+    },
+    {
+      "company": "Applus Laboratories (E&E Laboratory)",
+      "href": "https://appluslaboratories.com",
+      "badges": [],
+      "location": "Barcelona, Spain",
+      "title": "Full Stack Developer (Internship)",
+      "logoUrl": "/images/work/applus_laboratories.png",
+      "start": "July 2021",
+      "end": "July 2022",
+      "description": "I led the development of a custom web platform hosted on a local network server, specifically designed to streamline project planning and coordination for laboratory teams. I was involved in several key aspects of the platform, including extracting essential project data and improving the user interface for better usability.\n\nTo optimize the platform’s performance, I used a variety of programming languages and technologies, ensuring the system ran efficiently. I also implemented effective data distribution and resource allocation methods to facilitate smooth collaboration and enhance workflow within the team."
+    },
+    {
+      "company": "Plink",
+      "href": "https://plink.gg",
+      "badges": [],
+      "location": "Remote",
+      "title": "Mobile Application Developer",
+      "logoUrl": "/images/work/plink.png",
+      "start": "February 2022",
+      "end": "May 2022",
+      "description":
+      "During this contract, I had the opportunity to work with cutting-edge technologies and best practices to deliver high-performance web applications. I structured and managed the application’s state using Redux, ensuring a seamless and efficient user experience. I optimized assets with Webpack, which resulted in improved performance and faster load times. My proficiency in Scss/Sass allowed me to craft clean, maintainable stylesheets, enhancing the overall aesthetics and user interface. On the backend, I leveraged Node.js to build robust server-side components, ensuring smooth and reliable operations.\n\nAdditionally, my skills in Linux and Docker were crucial in streamlining development workflows, maintaining consistency across environments, and enabling rapid deployment, ultimately contributing to a more efficient and scalable development process."
+    },
+    {
+      "company": "Odournet",
+      "href": "https://www.odournet.com",
+      "badges": [],
+      "location": "San Francisco, CA",
+      "title": "Software Engineer",
+      "logoUrl": "/images/work/odournet.png",
+      "start": "June 2017",
+      "end": "February 2020",
+      "description":
+      "Specialize in odor analysis and chemical data classification."
+    }
+  ]
+}

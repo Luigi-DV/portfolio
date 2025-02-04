@@ -1,0 +1,5 @@
+{
+  "navbar": [
+    { "href": "/", "icon": "home", "label": "Home" }
+  ]
+}
